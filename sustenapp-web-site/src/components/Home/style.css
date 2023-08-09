@@ -1,0 +1,30 @@
+.home {
+    background-color: #1B44B0;
+
+    padding: 0 14rem 10rem;
+    color: white;
+
+}
+
+.home img {
+    width: 1000px;
+    position: absolute;
+    top: 50px;
+    right: -20px;
+
+}
+
+.home h1 {
+    padding: 4rem 0 0;
+    font-size: 4rem;
+}
+
+.home h1 > span {
+    color: #E6E0AA;
+}
+
+.home p {
+    padding: .5rem 0;
+    font-weight: 500;
+}
+
