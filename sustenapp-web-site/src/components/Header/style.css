@@ -5,10 +5,16 @@ header {
     justify-content: space-around;
     align-items: center;
 
+    z-index: 10000;
+
     padding: 1rem 1rem;
+    margin-bottom: 5rem;
 
     font-weight: 700;
     font-size: 1rem;
+
+    position: fixed;
+    width: 100vw;
 }
 
 header img {
