@@ -5,7 +5,7 @@ import grafico from '../../assets/grafico.png'
 import bolhas from '../../assets/bolhas.png'
 import floatBolhas from '../../assets/float-bolhas.png'
 
-import { DownloadSimple } from 'phosphor-react'
+import { DownloadSimple, GooglePlayLogo } from 'phosphor-react'
 
 // COMPONENTS
 
@@ -22,7 +22,7 @@ export default function Home() {
                     <img src={grafico} />
                 </div>
 
-                <a className='download' href="/"> <DownloadSimple className="downloadIcon" size={30} color="#ffff" weight="fill" /><span> DOWNLOAD APP</span> </a>
+                <a className='download' href="/"> <GooglePlayLogo className="downloadIcon" size={32} color="#ffff" /> <span> DOWNLOAD APP</span> </a>
 
         </section> 
 
