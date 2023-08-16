@@ -5,6 +5,7 @@ import './App.css'
 import Home from './components/Home'
 import Header from './components/Header'
 import About from './components/About'
+import Add from './components/Add'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Home />
         <About />
+        <Add />
       </main>
     </>
   )
