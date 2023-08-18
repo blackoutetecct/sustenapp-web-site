@@ -2,6 +2,8 @@ import './style.css'
 import apresentation from '../../assets/apresentacao.png'
 import apresentation1 from '../../assets/apresentacao1.png'
 import apresentation2 from '../../assets/apresentacao2.png'
+import yellowPlane from '../../assets/yellowPlane.png'
+import bolhasAzul from '../../assets/float-bolhas-azul.png'
 import AboutCard from '../AboutCard'
 
 
@@ -9,6 +11,10 @@ export default function About() {
 
     return(
         <section className='about'>
+
+            <img className='yellowPlane' src={yellowPlane} />
+            <img className='float-bolhas-azul' src={bolhasAzul} />
+            <img className='float-bolhas-azul2' src={bolhasAzul} />
 
             <h1>SOBRE NOSSO APP</h1>
 

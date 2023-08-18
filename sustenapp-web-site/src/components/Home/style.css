@@ -87,7 +87,8 @@
 
   .bolhas {
     opacity: .4;
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     position: absolute;
     left: 30px;
     top: 68vh;
@@ -232,5 +233,3 @@
   }
 
   }
-
-
