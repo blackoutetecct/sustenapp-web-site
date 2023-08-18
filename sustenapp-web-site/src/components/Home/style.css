@@ -4,7 +4,7 @@
     padding: 5rem 14rem 10rem;
     color: white;
 
-    transition: 1s;
+    transition: .5s;
 }
 
 .home img:nth-child(1) {
@@ -27,11 +27,14 @@
     right: 300px;
 
     z-index: 10;    
+    transition: .5s;
 }
 
 .home h1 {
     padding: 4rem 0 0;
     font-size: 4rem;
+
+    transition: .5s;
 }
 
 .home h1 > span {
@@ -196,4 +199,38 @@
       max-width: 150px;
     }
   }
+
+  @media (max-width: 550px) {
+    .home h1 {
+      font-size: 2rem;
+    }
+    .position-image {
+      position: absolute;
+      top: 400px;
+      right: 60px;
+      z-index: 10;    
+  }
+
+  .bolhas, .bolhas2 {
+    display: none;
+  }
+}
+
+  @media (max-width: 400px) {
+    .download {
+      font-size: .8rem;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .home {
+      padding: 5rem 1rem 10rem;
+    }
+    .position-image {
+      top: 450px;
+      right: 80px;
+  }
+
+  }
+
 
