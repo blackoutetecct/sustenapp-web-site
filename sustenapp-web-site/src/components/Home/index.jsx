@@ -26,7 +26,7 @@ export default function Home() {
  
         </section> 
 
-        <div class="wave-container"></div>
+        <div className="wave-container"></div>
 
         <img className="bolhas2" src={bolhas} />
         <img className="bolhas" src={bolhas} />

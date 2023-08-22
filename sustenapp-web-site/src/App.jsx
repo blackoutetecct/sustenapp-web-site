@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Header from './components/Header'
 import About from './components/About'
 import Add from './components/Add'
+import Newsletter from './components/Newsletter'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
         <Home />
         <About />
         <Add />
+        <Newsletter />
       </main>
     </>
   )
