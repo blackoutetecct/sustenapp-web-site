@@ -7,6 +7,7 @@ import Header from './components/Header'
 import About from './components/About'
 import Add from './components/Add'
 import Newsletter from './components/Newsletter'
+import Comments from './components/Comments'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
 
       <main>
         <Home />
+        <Comments />
         <About />
         <Add />
         <Newsletter />

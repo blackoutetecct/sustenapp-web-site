@@ -12,11 +12,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: 100;
 
     background: #F5F5F5;
 }
 
+.newsletter-flex > div {
+    z-index: 10;
+}
 
 .newsletter div p {
     color: #4D4D4D;
@@ -65,7 +67,9 @@
     width: 100%;
     max-width: 450px;
     left: 30px;
-    top: 100px;
+    top: -50px;
+
+    z-index: 10;
 }
 
 
