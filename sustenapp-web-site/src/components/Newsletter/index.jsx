@@ -11,17 +11,17 @@ export default function Newsletter() {
 
                 <img className="plane" src={plane} />
 
-            <div className="newsletter-flex">
+            <form className="newsletter-flex">
                 <div>
-                    <h1 className="title"> Se inscreva em <br /> Nosso <span className="strong">Newsletter!</span> </h1>
+                    <h1 className="title"> Se inscreva em <br /><span> Nosso <span className="strong">Newsletter!</span></span> </h1>
                     <p>Assine nosso newsletter e fique atualizado</p>
                     <div className="flex-input">
-                        <EnvelopeSimple size={32} color="#1E4CC6" className="position-input-icon" weight="bold" /> <input type="email" placeholder="Digite seu email"/> <br />
-                         <input type="submit" value="ENVIAR"/>
+                        <EnvelopeSimple size={32} color="#1E4CC6" className="position-input-icon" weight="bold" /> <input type="email" placeholder="Digite seu email" required /> <br />
+                         <input type="submit" value="ENVIAR" />
                     </div>
                 </div>
                     <img src={newsletter} className="newsletter-img"/>
-            </div>
+            </form>
 
 
         </section>
