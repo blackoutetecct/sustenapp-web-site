@@ -7,6 +7,7 @@ import Header from './components/Header'
 import About from './components/About'
 import Add from './components/Add'
 import Newsletter from './components/Newsletter'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -20,6 +21,8 @@ function App() {
         <Add />
         <Newsletter />
       </main>
+
+      <Footer />
     </>
   )
 }
