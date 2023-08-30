@@ -113,6 +113,28 @@
     left: 30px;
   }
 
+  .building {
+    position: relative;
+    width: 5%;
+    left: 20%;
+    top: 150px;
+  }
+
+  .title-statics{
+    position: relative;
+    color: #1B44B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .energy{
+    position: relative;
+    width: 6%;
+    left: 45%;
+    top: 155px;
+  }
+
   @media (max-width: 1500px) {
 
     .home {
