@@ -10,9 +10,10 @@ header {
     padding: 1rem 1rem;
     margin-bottom: 5rem;
 
+    
     font-weight: 700;
     font-size: 1rem;
-
+    
     position: fixed;
     width: 100vw;
 }
@@ -21,10 +22,14 @@ header img {
     width: 170px;
 }
 
+.ajustedHeight {
+    height: 100vh;
+}
+
 header nav ul{
     display: flex;
     gap: 7rem;
-
+    
     list-style: none;
     
 }
@@ -33,4 +38,105 @@ header nav ul li a {
     color: white;
     
     text-decoration: none;
+}
+
+.nav {
+    display: none;
+    position: relative;
+    
+    top: -7px;
+    right: 70px;
+}
+
+.nav-bar-mobile {
+    width: 100vw;
+    height: 100vh;
+    
+    display: grid;
+    place-items: center;
+    
+}
+
+.nav-bar-mobile ul {
+    gap: 5rem;
+
+    font-size: 1.5rem;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.line {
+    background-color: white;
+    width: 50px;
+    height: 5px;
+    margin: .5rem 0;
+}
+
+.close-menu-right {
+    transform: rotate(40deg);
+
+    position: relative;
+    top: 10px;
+}
+
+.close-menu-left {
+    transform: rotate(-40deg);
+    position: relative;
+    top: 1px;
+}
+
+.display-none {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    header nav ul {
+        gap: 4rem;
+        margin-right: 5rem;
+    }
+    
+    header {
+        justify-content: space-between;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    header nav ul {
+        gap: 2rem;
+    }
+    
+    .bolhas2 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    header {
+        height: 60px;
+    }
+
+    header img {
+        position: absolute;
+        top: 10px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 80vw;
+    }
+    
+    
 }
