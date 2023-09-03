@@ -1,0 +1,110 @@
+
+.add {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.add div:nth-child(2) {
+    margin-top: 15rem;
+}
+
+.add img {
+    max-width: 650px;
+    width: 100%;
+} 
+
+
+
+.add p {
+    color: #736969;
+    margin: 2rem 0 5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.flex-link {
+    display: flex;
+    align-items: center;
+}
+
+.downloadLink {
+    color: #E6E0AA;
+    text-decoration: none;
+    color: white;
+    background-color: #1E4CC6;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+
+    font-weight: 700;
+}
+
+.feedbackDownload {
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #D9D9D9;
+    background: rgba(255, 255, 255, 0.76);
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+
+    font-weight: 700;
+}
+
+.downloadAppIcon {
+    position: relative;
+    top: 6px;
+}
+
+
+@media (max-width: 1200px) {
+    .add {
+        align-items: center;
+    }
+
+    .add div:nth-child(2) {
+        margin-top: 1rem;
+        padding: 0 2rem;
+    }
+
+    .add h1 {
+        font-size: 2rem;
+    }
+    .add img {
+        max-width: 400px;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .add {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .flex-link {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 0rem;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .add h1{
+        font-size: 1.9rem;
+    }
+
+    .add p {
+        margin-bottom: 3rem;
+    }
+}
