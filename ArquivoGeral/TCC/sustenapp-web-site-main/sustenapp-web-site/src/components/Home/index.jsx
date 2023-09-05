@@ -1,4 +1,5 @@
 import './style.css'
+import { useInView } from 'react-intersection-observer'
 import '../../assets/logo-sustenapp.png'
 import homeImage from '../../assets/home-image.png'
 import grafico from '../../assets/grafico.png'
@@ -9,14 +10,14 @@ import energy from '../../assets/energy.svg'
 import water from '../../assets/water.svg'
 
 
-import { GooglePlayLogo } from 'phosphor-react'
+import { GooglePlayLogo, Option } from 'phosphor-react'
 
 // COMPONENTS
 
 export default function Home() {
     return( 
         <>
-        <section className="home">
+        <section className="home" >
 
                 <h1> A casa do futuro <br /> no <span> presente </span> </h1>
                 <p> Controlamento e Gerenciamento dos <br /> gastos de energia e água </p>
