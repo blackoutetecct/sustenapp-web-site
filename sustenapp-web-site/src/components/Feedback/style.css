@@ -1,0 +1,36 @@
+
+.feedback {
+    background-color: #1b44b0;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+.feedback h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.carousel-feedback {
+    max-width: 1000px;
+    margin: 5rem auto;
+}
+
+.feedback img {
+    width: 100%;
+}
+
+
+.InfiniteCarouselArrowIcon {
+    display: none !important;
+}
+
+@media (max-width: 550px) {
+    .feedback h1 {
+        margin: 3.5rem 0;
+        font-size: 2rem;
+    }
+}
+

@@ -8,6 +8,7 @@ import About from './components/About'
 import Add from './components/Add'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
+import Feedback from './components/Feedback'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Home />
         <About />
         <Add />
+        <Feedback />
         <Newsletter />
       </main>
 
