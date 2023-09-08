@@ -57,6 +57,12 @@
   border-radius: 10px;
 
   font-weight: 700;
+  transition: .2s;
+}
+
+.download:hover {
+  background-color: #d2c76c;
+  transition: .2s;
 }
 
 .downloadIcon {

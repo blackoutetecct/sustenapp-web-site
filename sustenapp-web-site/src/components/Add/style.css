@@ -43,6 +43,12 @@
     border-radius: 10px;
 
     font-weight: 700;
+    transition: .2s;
+}
+
+.downloadLink:hover {
+    background-color: #1c43af;
+    transition: .2s;
 }
 
 .feedbackDownload {
@@ -55,8 +61,14 @@
     background-color: white;
     padding: 1rem;
     border-radius: 10px;
-
+    
     font-weight: 700;
+    transition: .2s;
+}
+
+.feedbackDownload:hover {
+    background: rgba(233, 233, 233, 0.313);
+    transition: .2s;
 }
 
 .downloadAppIcon {
