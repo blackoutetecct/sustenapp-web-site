@@ -14,10 +14,34 @@
     font-weight: 700;
     font-size: 3rem;
     text-align: center;
-    margin: 4rem 0;
-
+    margin-top: 4rem;
+    margin-bottom: .5rem;
+    
     position: relative;
     z-index: 10;
+}
+
+.about .title-border-content {
+    display: flex;
+    gap: .7rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.about .title-border {
+    width: 100px;
+    height: 4px;
+
+    background-color: #1E4CC6;
+
+}
+
+.about .title-border2 {
+    width: 30px;
+    height: 4px;
+
+    background-color: #1E4CC6;
+
 }
 
 .yellowPlane {
@@ -69,7 +93,11 @@
     }
 
     .about h1 {
-        margin: 3.5rem 0;
+        margin-top: 3.5rem;
         font-size: 2rem;
+    }
+
+    .about .title-border-content {
+        margin-bottom: 3.5rem;
     }
 }

@@ -3,7 +3,16 @@
     background-color: #1b44b0;
     padding: 2rem 0;
     margin-top: 4rem;
+    position: relative;
 }
+
+.feedback-float-bolhas {
+    position: absolute;
+    width: 100%;
+    max-width: 200px;
+    top: -100px;
+    left: 40px;
+  }
 
 .feedback h1 {
     color: white;
@@ -21,6 +30,7 @@
 .feedback img {
     width: 100%;
 }
+
 
 
 .InfiniteCarouselArrowIcon {

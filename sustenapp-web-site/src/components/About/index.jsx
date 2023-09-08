@@ -16,7 +16,11 @@ export default function About() {
             <img className='float-bolhas-azul' src={bolhasAzul} />
             <img className='float-bolhas-azul2' src={bolhasAzul} />
 
-            <h1>SOBRE NOSSO APP</h1>
+                <h1>SOBRE NOSSO APP</h1>
+                <div className="title-border-content">
+                    <div className='title-border'></div>
+                    <div className='title-border2'></div>
+                </div>
 
             <div className='grid-content'>
                 <AboutCard  

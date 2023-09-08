@@ -3,6 +3,8 @@ import feedback1 from './../../assets/feedback.png'
 import feedback2 from './../../assets/feedback2.png'
 import feedback3 from './../../assets/feedback3.png'
 import feedback4 from './../../assets/feedback4.png'
+import floatBolhas from '../../assets/float-bolhas.png'
+
 
 import { useEffect, useState } from 'react';
 
@@ -19,6 +21,8 @@ export default function Feedback() {
     return(
 
         <section className='feedback'>
+
+            <img src={floatBolhas} className='feedback-float-bolhas'/>
             <h1> COMENTÁRIOS </h1>
 
             <div className='carousel-feedback'>
