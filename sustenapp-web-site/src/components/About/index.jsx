@@ -10,7 +10,7 @@ import AboutCard from '../AboutCard'
 export default function About() {
 
     return(
-        <section className='about'>
+        <section id="about" className='about'>
 
             <img className='yellowPlane' src={yellowPlane} />
             <img className='float-bolhas-azul' src={bolhasAzul} />

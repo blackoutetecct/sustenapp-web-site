@@ -20,7 +20,7 @@ export default function Feedback() {
 
     return(
 
-        <section className='feedback'>
+        <section className='feedback' id='feedback'>
 
             <img src={floatBolhas} className='feedback-float-bolhas'/>
             <h1> COMENTÁRIOS </h1>

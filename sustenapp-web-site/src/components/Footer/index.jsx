@@ -9,7 +9,7 @@ export default function Footer() {
         <>
 
                 
-        <footer>
+        <footer id='footer'>
 
                 <div class="custom-shape-divider-bottom-1693432336">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -25,9 +25,9 @@ export default function Footer() {
                    <nav>
                     <ul>
                         <li><ArrowRight className='footer-icon' size={20} color="white" weight="bold" /><a href="#">Inicio</a></li>
-                        <li><ArrowRight className='footer-icon' size={20} color="white" weight="bold" /><a href="#">Sobre</a></li>
-                        <li><ArrowRight className='footer-icon' size={20} color="white" weight="bold" /><a href="#">Comentários</a></li>
-                        <li><ArrowRight className='footer-icon' size={20} color="white" weight="bold" /><a href="#">Contato</a></li>
+                        <li><ArrowRight className='footer-icon' size={20} color="white" weight="bold" /><a href="#about">Sobre</a></li>
+                        <li><ArrowRight className='footer-icon' size={20} color="white" weight="bold" /><a href="#feedback">Comentários</a></li>
+                        <li><ArrowRight className='footer-icon' size={20} color="white" weight="bold" /><a href="#footer">Contato</a></li>
                     </ul>
                     </nav> 
                 </div>
@@ -36,8 +36,8 @@ export default function Footer() {
 
                    <nav>
                     <ul>
-                        <li><NavigationArrow className='footer-icon' size={20} color="white" weight="bold" /><a href="#">ETEC Cidade Tiradentes</a></li>
-                        <li><EnvelopeSimple  className='footer-icon not-animation' size={20} color="white" weight="bold" /><a className='not-animation' href="#">blackoutempresa@gmail.com</a></li>
+                        <li><NavigationArrow className='footer-icon' size={20} color="white" weight="bold" /><a href="https://goo.gl/maps/bmxcfpZSfE22HxHV8" target='_blank'>ETEC Cidade Tiradentes</a></li>
+                        <li><EnvelopeSimple  className='footer-icon not-animation' size={20} color="white" weight="bold" /><a className='not-animation' target='_blank' href="mailto:blackoutempresa@gmail.com">blackoutempresa@gmail.com</a></li>
                     </ul>
                     </nav> 
                 </div>
@@ -46,8 +46,8 @@ export default function Footer() {
 
                    <nav>
                     <ul>
-                        <li><InstagramLogo  className='footer-icon' size={20} color="white" weight="bold" /><a href="#">Instagram</a></li>
-                        <li><GithubLogo  className='footer-icon' size={20} color="white" weight="bold" /><a href="#">Github</a></li>
+                        <li><InstagramLogo  className='footer-icon' size={20} color="white" weight="bold" /><a href="https://instagram.com/blackoutetecct" target='_blank'>Instagram</a></li>
+                        <li><GithubLogo  className='footer-icon' size={20} color="white" weight="bold"/><a href="https://github.com/blackoutetecct" target='_blank'>Github</a></li>
                         <li><LinkedinLogo className='footer-icon' size={20} color="white" weight="bold" /><a href="#">LinkedIn</a></li>
                     </ul>
                     </nav> 
