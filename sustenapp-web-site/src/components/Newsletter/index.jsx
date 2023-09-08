@@ -38,7 +38,7 @@ export default function Newsletter() {
                     <p>Assine nosso newsletter e fique atualizado</p>
                     <div className="flex-input">
                         <EnvelopeSimple size={32} color="#1E4CC6" className="position-input-icon" weight="bold" /> <input id="email" name="" type="email" placeholder="Digite seu email" required /> <br />
-                         <input type="submit" value="ENVIAR" onClick={newsletterAPI} />
+                         <input type="submit" value="ENVIAR" />
                     </div>
                 </div>
                     <img src={newsletter} className="newsletter-img"/>
