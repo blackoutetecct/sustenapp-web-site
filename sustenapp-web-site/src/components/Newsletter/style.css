@@ -67,6 +67,14 @@
     font-weight: 800;
     font-size: 1.5rem;
     border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.newsletter div input[type="submit"]:hover {
+    background-color: #1a3f9e;
+
+    cursor: pointer;
 }
 
 .newsletter div input::placeholder {

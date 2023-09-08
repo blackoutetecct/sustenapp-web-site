@@ -42,5 +42,12 @@
         margin: 3.5rem 0;
         font-size: 2rem;
     }
+
+    .feedback-float-bolhas {
+        position: absolute;
+        width: 100%;
+        top: -30px;
+        max-width: 100px;
+      }
 }
 

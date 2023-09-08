@@ -100,4 +100,14 @@
     .about .title-border-content {
         margin-bottom: 3.5rem;
     }
+
+    .float-bolhas-azul {
+        width: 100%;
+        max-width: 100px;
+    }
+
+    .float-bolhas-azul2 {
+        width: 100%;
+        max-width: 100px;
+    }
 }

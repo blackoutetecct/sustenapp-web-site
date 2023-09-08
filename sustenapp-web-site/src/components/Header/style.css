@@ -40,6 +40,13 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header nav ul li a:hover {
+    color: rgb(207, 207, 207);
+    transition: .2s;
+    
+    text-decoration: none;
+}
+
 .nav {
     display: none;
     position: relative;
