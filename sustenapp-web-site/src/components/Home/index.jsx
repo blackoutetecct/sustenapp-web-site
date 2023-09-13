@@ -32,15 +32,7 @@ export default function Home() {
         <img className="bolhas2" src={bolhas} />
         <img className="bolhas" src={bolhas} />
         <img className='float-bolhas' src={floatBolhas} />
-        <img className='building' src={building} />
-        <img className='energy' src={energy} />
 
-        <div className="title-statics">
-
-            <h2>Residencias</h2>
-            <h2>Energia Ecônomizada</h2>
-            <h2>Agua Gerenciada</h2>
-        </div>
 </>
     )
 }
