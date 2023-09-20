@@ -3,9 +3,11 @@ import newsletter from '../../assets/newsletter.png'
 import plane from '../../assets/blue-plane.png'
 import axios from 'axios'
 
-import { EnvelopeSimple } from 'phosphor-react'
+import { EnvelopeSimple, WarningCircle } from 'phosphor-react'
 
 export default function Newsletter() {
+
+
     
     async function newsletterAPI() {
         
@@ -19,10 +21,26 @@ export default function Newsletter() {
                 email: email
             })
             .then(response => {
-                console.log('Email enviado com sucesso')
+                const newsletterNotification = document.querySelector('#newsletterNotification')
+                newsletterNotification.style.display = 'block'
+
+                setTimeout(() => {
+                    newsletterNotification.style.display = 'none'
+
+                }, 3000)
+            })
+            .catch(error => {
+                const errorNewsletterNotification = document.querySelector('#errorNewsletterNotification')
+                errorNewsletterNotification.style.display = 'block'
+    
+                setTimeout(() => {
+                    errorNewsletterNotification.style.display = 'none'
+                }, 3000)
+
             })
         } catch (err) {
-            console.error('Erro na requisição da API: ' + err)
+
+            console.log("erro na api")
         }
 
     }
@@ -43,6 +61,22 @@ export default function Newsletter() {
                 </div>
                     <img src={newsletter} className="newsletter-img"/>
             </form>
+
+            <div id="newsletterNotification">
+             <div>
+                 <EnvelopeSimple size={32} color="#1B44B0" weight='bold'/>
+                    <h2>Email enviado!</h2>
+             </div>
+                <p>Seu email foi enviado e está pronto para receber atualizações.</p>
+            </div>
+
+            <div id="errorNewsletterNotification">
+             <div>
+                 <WarningCircle size={32} color="#ff7b00" />
+                    <h2>Erro ao cadastrar o email!</h2>
+             </div>
+                <p>Verifique se as informações cadastradas estão corretas ou tente novamente mais tarde.</p>
+            </div>
 
         </section>
     )
