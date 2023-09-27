@@ -44,10 +44,10 @@ export default function Header() {
         { isOpen &&
             <nav className='nav-bar-mobile'>
                 <ul>
-                    <li><a href="#inicio">Ínicio</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#comentarios">Comentários</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#" onClick={toggleMenu}>Ínicio</a></li>
+                    <li><a href="#about" onClick={toggleMenu}>Sobre</a></li>
+                    <li><a href="#feedback" onClick={toggleMenu}>Comentários</a></li>
+                    <li><a href="#footer" onClick={toggleMenu}>Contato</a></li>
                 </ul>
             </nav>
         

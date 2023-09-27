@@ -12,52 +12,51 @@ import InfiniteCarousel from 'react-leaf-carousel';
 
 export default function Feedback() {
 
-    const [ viewportWidth, setViewportWidth ] = useState(window.innerWidth)
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth)
 
-    useEffect(() => {
-        setViewportWidth(viewportWidth)
-    }), []
+  useEffect(() => {
+    setViewportWidth(viewportWidth)
+  }, [viewportWidth]);
 
-    return(
+  return (
 
-        <section className='feedback' id='feedback'>
+    <section className='feedback' id='feedback'>
 
-            <img src={floatBolhas} className='feedback-float-bolhas'/>
-            <h1> COMENTÁRIOS </h1>
+      <img src={floatBolhas} className='feedback-float-bolhas' />
+      <h1> COMENTÁRIOS </h1>
 
-            <div className='carousel-feedback'>
+      <div className='carousel-feedback'>
 
-            <InfiniteCarousel
-            
-            dots={true}
-            showSides={true}
-            sidesOpacity={1}
-            sideSize={0.0}
-            slidesToScroll={1}
-            slidesToShow={viewportWidth >= '700' ? 2 : 1}
-            scrollOnDevice={true}
-  >
-      <img
-        alt=""
-        src={feedback1}
-      />
-      <img
-        alt=""
-        src={feedback2}
-      />
-      <img
-        alt=""
-        src={feedback3}
-      />
-      <img
-        alt=""
-        src={feedback4}
-      />
-   
-  </InfiniteCarousel>
+        <InfiniteCarousel
+          dots={true}
+          showSides={true}
+          sidesOpacity={1}
+          sideSize={0.0}
+          slidesToScroll={1}
+          slidesToShow={viewportWidth >= '700' ? 2 : 1}
+          scrollOnDevice={true}
+        >
+          <img
+            alt=""
+            src={feedback1}
+          />
+          <img
+            alt=""
+            src={feedback2}
+          />
+          <img
+            alt=""
+            src={feedback3}
+          />
+          <img
+            alt=""
+            src={feedback4}
+          />
 
-            </div>
-        </section>
+        </InfiniteCarousel>
 
-    )
+      </div>
+    </section>
+
+  )
 }

@@ -82,6 +82,11 @@
 }
 
 @media (max-width: 900px) {
+
+    .yellowPlane {
+        width: 300px;
+    }
+
     .grid-content {
         grid-template-columns: 1fr 1fr;
     }

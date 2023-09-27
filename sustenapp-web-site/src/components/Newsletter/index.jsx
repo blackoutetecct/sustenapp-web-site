@@ -7,8 +7,6 @@ import { EnvelopeSimple, WarningCircle } from 'phosphor-react'
 
 export default function Newsletter() {
 
-
-    
     async function newsletterAPI() {
         
        event.preventDefault()
