@@ -15,7 +15,7 @@ export default function Newsletter() {
     const email = inputEmail.value
 
         try {
-            axios.post(`https://sustenapp-newsletters-api-production.up.railway.app/usuario`, {
+            axios.post(`https://sustenapp-newsletter-api-production.up.railway.app/usuario`, {
                 email: email
             })
             .then(response => {
